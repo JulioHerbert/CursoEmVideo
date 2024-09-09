@@ -1,0 +1,5 @@
+l = str(input('Digite algo para saber sobre todas informações dela: '))
+print('{} é do tipo: {}'.format(l, type(l)))
+print ('{} é um número? {}'.format(l, l.isnumeric()))
+print ('{} é uma string? {}'.format(l, l.isalpha()))
+print ('{} está em letra maiúscula? {}'.format(l, l.isupper()))
